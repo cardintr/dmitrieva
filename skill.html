@@ -3,90 +3,60 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Дмитриева Е.Е</title>
 </head>
 
-<body>
-    <header> <!--шапка сайта-->
-        <nav>
-            <a href="index.html">обо мне</a>
-            <a href="skill.html">навыки</a>
-            <a href="tech.html">технологии</a>
+<body class="page">
+    <header class="page-header">
+        <nav class="main-nav">
+            <ul class="site-navigation">
+                <li class="site-navigation-item"><a href="index.html">Обо мне</a></li>
+                <li class="site-navigation-item"><a href="skill.html">Навыки</a></li>
+                <li class="site-navigation-item"><a href="#">Технологии</a></li>
+            </ul>
+            <a class="signin" href="#">Вход</a>
         </nav>
-
-        <h1>Навыки</h1>
-
-        <H2>веб-дизайн</H2>
-
-        <main> <!--основная инфо-->
-            <section id="raster">
-                <h2>Растовая графика </h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae totam minima earum eveniet velit
-                    deleniti iusto
-                    ex neque quisquam! Ipsam repellendus, possimus dolorum animi perferendis sit fugit. Totam, in
-                    beatae!</p>
-            </section>
-            <section id="vector">
-                <h2>Вектораня графика</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse expedita tenetur inventore alias! Nam,
-                    laudantium ab
-                    eius corporis, dolor sint dolore dolorem ad earum facere officiis vel dicta impedit provident!
-                </p>
-
-                </section>
-                <section id="3d">
-                    <h2>3д</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum tempore qui veniam natus, dolores
-                        ullam aspernatur
-                        impedit ut excepturi velit aliquid. Vero ut excepturi, obcaecati optio labore quidem nihil
-                        consequuntur.
-                    </p>
-                </section>
-                <section id="table">
-                    <h2> уровень навыка</h2>
-                    <table class="border">
-                        <tr>
-                            <th class="border">№</th>
-                            <th class="border">Навыки работы с инструментами</th>
-                            <th class="border">Уровень владения</th>
-                        </tr>
-                        <tr>
-                            <td class="border">1</td>
-                            <td class="border">Работа с кистями </td>
-                            <td class="border">Уверенный</td>
-                        </tr>
-                        <tr>
-                            <td class="border">2</td>
-                            <td class="border">Работа с цветом </td>
-                            <td class="border">Уверенный</td>
-                        </tr>
-                        <tr>
-                            <td class="border">3</td>
-                            <td class="border">Работа в команде</td>
-                            <td class="border" class="border" rowspan="2">Профессионал </td>
-                        </tr>
-                        <tr>
-                            <td class="border">3</td>
-                            <td class="border">Работа с альфа-каналами</td>
-                        </tr>
-                        <tr>
-                            <td class="border" colspan="3">Общий уровень - про</td>
-                        </tr>
-                    </table>
-                    <a href="#">Связь со мной</a>
     </header>
 
-      <style>
-        .border {
-            border: 1px solid black;
-        }
-      </style>
-      </section>
-     </main>
-        <footer> <!--подвал сайта-->
+    <main class="main-content">
+        <section class="main-skills">
+            <h1>Навыки</h1>
+            <h2>Графический дизайн</h2>
+            <ul class="main-skills-list">
+                <li class="main-skills-list-item">Создание уникального логотипа, цветовой палитры, шрифтов и других элементов, которые отражают бренд компании и его неповторимость. Это поможет компании выделиться среди конкурентов и создать узнаваемый образ</li>
+                <li class="main-skills-list-item">Разработка дизайна для наружной рекламы, включая билборды, вывески,визитки,бланки, брошюры а также создание дизайна для выставочных стендов и стендов на ярмарках и выставках</li>
+                <li class="main-skills-list-item">Разработка презентаций для встреч с клиентами, партнёрами, инвесторами. А также дизайн отчётов и презентаций с результатами работы. Это поможет наглядно представить информацию и привлечь внимание аудитории.</li>
+            </ul>
 
-        </footer>
+            <h2>Веб-дизайн</h2>
+            <ul class="main-skills-list">
+                <li class="main-skills-list-item">Разработка дизайна сайта и его интерфейса.</li>
+                <li class="main-skills-list-item">Создание веб-страниц с использованием HTML, разработка элементов пользовательского интерфейса и UX, а также реализация адаптивного и отзывчивого дизайна для корректного отображения сайта на различных устройствах</li>
+            </ul>
+
+            <h2>Растровые и векторные иллюстрации</h2>
+            <ul class="main-skills-list">
+                <li class="main-skills-list-item">Создание цифровых а также традиционных индвидуальных иллюстраций</li>
+            </ul>
+
+            <h2>Полиграфический дизайн</h2>
+            <ul class="main-skills-list">
+                <li class="main-skills-list-item">Создание макетов книг, журналов, брошюр, каталогов, визиток, плакатов и другой печатной продукции с учётом требований клиента.</li>
+                <li class="main-skills-list-item">Выбор шрифтов,подходящие шрифты для текста, учитывая их читаемость, стиль и соответствие общему дизайну.</li>
+                <li class="main-skills-list-item">Подготовка к печати, проверка макетов перед печатью, чтобы убедиться в отсутствии ошибок и соответствии требованиям клиента.</li>
+                <li class="main-skills-list-item">Создание шаблонов,разработка шаблонов для повторяющихся элементов, таких как заголовки, таблицы, списки и т.п., чтобы ускорить процесс создания макетов.</li>
+            </ul>
+
+            <h2>3D</h2>
+            <ul class="main-skills-list">
+                <li class="main-skills-list-item">Создание 3д моделий, работа с текстурами, светом, анимация </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>Дмитриева Е.Е</p>
+    </footer>
 </body>
 
 </html>
