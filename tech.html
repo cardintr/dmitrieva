@@ -1,60 +1,132 @@
 <!DOCTYPE html>
 <html lang="ru">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Дмитриева Е.Е</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <title>Дмитриева Е.Е</title>
+    </head>
+    
+    <body class="page">
+        <header class="page-header">
+            <nav class="main-nav">
+                <ul class="site-navigation">
+                    <li class="site-navigation-item"><a href="index.html">Обо мне</a></li>
+                    <li class="site-navigation-item"><a href="skill.html">Навыки</a></li>
+                    <li class="site-navigation-item"><a href="tech.html">Технологии</a></li>
+                </ul>
+                <a class="signin" href="#">Вход</a>
+            </nav>
+        </header>
 
-<body>
-    <header> <!--шапка сайта-->
-        <nav>
-            <a href="index.html">обо мне</a>
-            <a href="skill.html">навыки</a>
-            <a href="tech.html">технологии</a>
-        </nav>
-
-        <h1>Технологии</h1>
-
-        <H2>веб-дизайн</H2>
-
-        <main> <!--основная инфо-->
-            <section id="raster">
-                <h2>Растовая графика </h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae totam minima earum eveniet velit
-                    deleniti iusto
-                    ex neque quisquam! Ipsam repellendus, possimus dolorum animi perferendis sit fugit. Totam, in
-                    beatae!</p>
+        <main class="main-content">
+            <h1>Технологии</h1>
+            <section class="first">
+                <h2>Графический дизайн</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>№</th>
+                            <th>Навыки работы с инструментами</th>
+                            <th>Уровень владения</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>1</th>
+                            <th>Работа с кистями</th>
+                            <th>Профессионал</th>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <th>Работа с масками</th>
+                            <th>Уверенный</th>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <th>Работа со слоями</th>
+                            <th>Профессионал</th>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <th>Работа с инструментом выделения</th>
+                            <th>Средний</th>
+                        </tr>
+                        <tr>
+                            <th colspan="3">Общий уровень – опытный дизайнер</th>
+                        </tr>
+                    </tbody>
+                </table>
             </section>
-            <section id="vector">
-                <h2>Вектораня графика</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse expedita tenetur inventore alias! Nam,
-                    laudantium ab
-                    eius corporis, dolor sint dolore dolorem ad earum facere officiis vel dicta impedit provident!
-                </p>
-                </section>
-                <section id="3d">
-                    <h2>3д</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum tempore qui veniam natus, dolores
-                        ullam aspernatur
-                        impedit ut excepturi velit aliquid. Vero ut excepturi, obcaecati optio labore quidem nihil
-                        consequuntur.
-                    </p>
-                </section>
-                    <a href="#">Связь со мной</a>
-    </header>
 
-      <style>
-        .border {
-            border: 1px solid black;
-        }
-      </style>
-      </section>
-     </main>
-        <footer> <!--подвал сайта-->
+            <section class="second">
+                <h2>Веб-дизайн</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>№</th>
+                            <th>Навыки работы с инструментами</th>
+                            <th>Уровень владения</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>1</th>
+                            <th>Работа в Фигме</th>
+                            <th>Уверенный</th>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <th>Работа с текстом</th>
+                            <th>Уверенный</th>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <th>Работа в HTML</th>
+                            <th>Средний</th>
+                        </tr>
+                        <tr>
+                            <th colspan="3">Общий уровень – опытный дизайнер</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
 
+            <section class="third">
+                <h2>3D</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>№</th>
+                            <th>Навыки работы с инструментами</th>
+                            <th>Уровень владения</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>1</th>
+                            <th>Работа со светом</th>
+                            <th>Уверенный</th>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <th>Работа с физикой</th>
+                            <th>Уверенный</th>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <th>Работа с анимаций</th>
+                            <th>Средний</th>
+                        </tr>
+                        <tr>
+                            <th colspan="3">Общий уровень – опытный дизайнер</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+
+        <footer class="main-footer">
+            <p>Дмитриева Е.Е</p>
         </footer>
-</body>
-
+    </body>
 </html>
