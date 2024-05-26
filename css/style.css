@@ -4,57 +4,138 @@ body {
     background-color: #FFFFFF;
 }
 
+a.button{
+    max-width: 256px;
+    text-align: center;
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 100px;
+    color: #151313;
+    border: 2px solid #151313;
+    font-family: "Inter";
+    margin: 15px;
+}
 .main-nav a {
     font-weight: 400;
-    font-size: 32px;
+    font-size: 20px;
     line-height: 38px;
     text-transform: uppercase;
     color: #000000;
     text-decoration: none;
 }
 
+.content {
+    display: table;
+  }
+  
+.img1 {
+    display: inline;
+    vertical-align: middle;
+    display: table-cell;
+    float:left
+  }
+.span {
+    display: inline;
+    vertical-align: middle;
+    display: table-cell;
+  }
+
 .hero {
     background-color: #C22626;
+    max-width: 1400px;
+    border-radius: 64px;
+    padding: 25px;
+    margin-top: 20px;
 }
 
 .hero h1 {
+    position: relative;
+    display: inline;
+    align-items: center;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 77px;
+    font-size: 45px;
+    line-height: 60px;
     text-transform: uppercase;
     color: #FFFFFF;
+    left: 50px;
+    top: 160px;
+
 }
 
 .blog-about {
     background-color: #C22626;
+    width: 700px;
+    height: 500px;
+    margin-left: 50px;
 }
 
 .blog-about h2 {
+    width: 644px;
+    position: relative;
+    justify-content: left;
+    margin-left: auto;
+    margin-right: auto;
     font-weight: 900;
     font-size: 128px;
-    line-height: 155px;
+    line-height: auto;
     text-transform: uppercase;
     color: #000000;
+    margin-bottom: -5px;
 }
 
 .blog-about p {
+    width: 500px;
+    position: relative;
+    justify-content: left;
+    margin-right: auto;
     font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 18px;
+    line-height: auto;
     color: #FFFFFF;
+    margin-left: 50px;
 }
+
+.blog-about .photo{
+    width: 500px;
+    display: inline;
+    position: relative;
+    align-items: center;
+    justify-items: right;
+    background-image: url("images/laptop.png");
+    background-size: cover;
+    top: -500px;
+    left: 750px;
+}
+
+.site-navigation {
+    display: inline;
+
+    .site-navigation-item{
+        display: inline;
+        justify-items: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
 
 .skills h2 {
     font-weight: 900;
     font-size: 128px;
-    line-height: 155px;
+    line-height: auto;
     text-transform: uppercase;
     color: #000000;
+
 }
 
 .skills-list-item {
     font-weight: 600;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 44px;
     text-transform: uppercase;
     color: #000000;
@@ -69,17 +150,44 @@ body {
     text-decoration: none;
 }
 
+.skills .instr {
+    width: 310px;
+    height: 367px;
+    display: inline;
+    position: relative;
+    align-items: center;
+    justify-content: right;
+    background-image: url("images/instrument.png");
+    background-size: cover;
+    top: -320px;
+    left: 1025px;
+    margin-bottom: -300px;
+}
+
+.container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: left;
+}
+
+.containerbutton{
+    width: 100%;
+    text-align: center;
+}
+
 .contacts h2 {
     font-weight: 900;
     font-size: 128px;
-    line-height: 155px;
+    line-height: auto;
     text-transform: uppercase;
     color: #000000;
+
 }
 
 .contact-item h3 {
     font-weight: 600;
-    font-size: 36px;
+    font-size: 25px;
     line-height: 44px;
     text-transform: uppercase;
     color: #000000;
@@ -87,7 +195,7 @@ body {
 
 .contact-item a {
     font-weight: 900;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 44px;
     text-transform: uppercase;
     color: #000000;
@@ -96,6 +204,11 @@ body {
 
 .main-footer {
     background-color: #000000;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 10px;
 }
 
 .main-footer p{
@@ -104,4 +217,21 @@ body {
     font-size: 36px;
     line-height: 44px;
     text-transform: uppercase;
+    position: relative;
+    align-items: center;
+    justify-items: right;
+}
+
+.contacts .figure{
+    width: 500px;
+    height: 414px;
+    display: inline;
+    position: relative;
+    align-items: center;
+    justify-content: right;
+    background-image: url("images/figure.png");
+    background-size: cover;
+    top: -520px;
+    left: 700px;
+    margin-bottom: -500px;
 }

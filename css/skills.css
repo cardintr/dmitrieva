@@ -3,14 +3,42 @@ body {
     color: #000000;
     background-color: #FFFFFF;
 }
+a.button{
+    max-width: 256px;
+    text-align: center;
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 100px;
+    color: #151313;
+    border: 2px solid #151313;
+    font-family: "Inter";
+    margin: 15px;
+}
 
 .main-nav a {
     font-weight: 400;
-    font-size: 32px;
+    font-size: 20px;
     line-height: 38px;
     text-transform: uppercase;
     color: #000000;
     text-decoration: none;
+}
+
+.containerbutton{
+    width: 100%;
+    text-align: center;
+}
+
+.main-content{
+    width: 1140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main-skills h1 {
@@ -27,6 +55,7 @@ body {
     line-height: 29px;
     text-transform: uppercase;
     color: #000000;
+    margin-top: 50px;
 }
 
 .main-skills-list-item {
@@ -35,10 +64,16 @@ body {
     line-height: 24px;
     text-transform: none;
     color: #000000;
+    padding: 10px;
 }
 
 .main-footer {
     background-color: #000000;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 10px;
 }
 
 .main-footer p{
@@ -47,4 +82,18 @@ body {
     font-size: 36px;
     line-height: 44px;
     text-transform: uppercase;
+    position: relative;
+    align-items: center;
+    justify-items: right;
 }
+.site-navigation {
+    display: inline;
+
+    .site-navigation-item{
+        display: inline;
+        justify-items: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }

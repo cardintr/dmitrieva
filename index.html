@@ -1,43 +1,59 @@
 <!DOCTYPE html>
 <html lang="ru">
 
-    <head>
-        <meta charset="UTF-8">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
-        <title>Дмитриева Е.Е</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Дмитриева Е.Е</title>
+</head>
 
-    <body class="page">
-        <header class="page-header">
+<body class="page">
+    <header class="page-header">
+        <div class="containerbutton">
             <nav class="main-nav">
                 <ul class="site-navigation">
-                    <li class="site-navigation-item"><a href="index.html">Обо мне</a></li>
-                    <li class="site-navigation-item"><a href="skill.html">Навыки</a></li>
-                    <li class="site-navigation-item"><a href="tech.html">Технологии</a></li>
+                    <li class="site-navigation-item"><a class="button" href="index.html">Обо мне</a></li>
+                    <li class="site-navigation-item"><a class="button" href="skill.html">Навыки</a></li>
+                    <li class="site-navigation-item"><a class="button" href="tech.html">Технологии</a></li>
                 </ul>
-                <a class="signin" href="authorization.html">Вход</a>
+                <a class="button" href="authorization.html">Вход</a>
             </nav>
-        </header>
+        </div>
+    </header>
 
-        <main class="main-content">
+    <main class="main-content">
+        <div class="container">
             <section class="hero">
-                <h1>Графический дизайнер<br> Дмитриева Екатерина<br> Егоровна</h1>
-                <img src="images/author.jpg" width="417" height="508" alt="Дмитриева Екатерина Егоровна">
+                <div class="content">
+                    <span><img class="img1" src="images/author.png" width="417" height="508"
+                            alt="Дмитриева Екатерина Егоровна"></span>
+                    <span>
+                        <h1>Графический дизайнер<br> Дмитриева Екатерина<br> Егоровна</h1>
+                    </span>
+                </div>
             </section>
+        </div>
 
-            <section class="blog-about">
+        <section class="blog-about">
                 <h2>Обо мне</h2>
-                <p>Привет! Я - Катя, графический дизайнер с творческим взглядом на мир вокруг нас. Моя страсть к искусству и дизайну вдохновляет меня создавать уникальные визуальные концепции, которые заставляют людей остановиться и задуматься.</p>
-                <p>Моя работа охватывает различные аспекты графического дизайна, включая создание логотипов, брендинг, упаковку продуктов, дизайн веб-сайтов и многое другое. Я стремлюсь к тому, чтобы каждый мой проект был уникальным и отражал потребности и вкусы моих клиентов.</p>
-            </section>
+                <p>Привет! Я - Катя, графический дизайнер с творческим взглядом на мир вокруг нас. Моя страсть к
+                    искусству и
+                    дизайну вдохновляет меня создавать уникальные визуальные концепции, которые заставляют людей
+                    остановиться и задуматься.</p>
+                <p>Моя работа охватывает различные аспекты графического дизайна, включая создание логотипов, брендинг,
+                    упаковку продуктов, дизайн веб-сайтов и многое другое. Я стремлюсь к тому, чтобы каждый мой проект
+                    был
+                    уникальным и отражал потребности и вкусы моих клиентов.</p>
+                <img class="photo" src="images/laptop.jpg" alt="">
 
-            <div class="photo"><img src="images/laptop.jpg" width="619" height="784" alt="Ноутбук и сматрфон"></div>
+        </section>
 
-            <section class="skills">
-                <h2>Навыки</h2>
+
+        <section class="skills">
+            <h2>Навыки</h2>
                 <ul class="skills-list">
                     <li class="skills-list-item">Графический дизайн</li>
                     <li class="skills-list-item">Веб-дизайн</li>
@@ -45,33 +61,35 @@
                     <li class="skills-list-item">Полиграфический дизайн</li>
                     <li class="skills-list-item">3D модели</li>
                 </ul>
-                <a class="link" href="skill.html">Подробнее</a>
-            </section>
+                <img class="instr" src="images/instrument.png">
+            <div class="container">
+                <a class="button" class="link" href="skill.html">Подробнее</a>
+            </div>
+        </section>
 
-            <div class="instrument"><img src="images/instrument.png" width="501" height="592"></div>
+        <section class="contacts">
+            <h2>Контакты</h2>
+            <ul class="contact-items">
+                <li class="contact-item">
+                    <h3>Почта</h3>
+                    <a href="mailto:card.intr@mail.ru">card.intr@mail.ru</a>
+                </li>
+                <li class="contact-item">
+                    <h3>Телеграмм</h3>
+                    <a href="#">@card_intr</a>
+                </li>
+                <li class="contact-item">
+                    <h3>Инстаграмм</h3>
+                    <a href="#">_card_intr_</a>
+                </li>
+            </ul>
+            <img class="figure" src="images/figure.png" alt="">
+        </section>
+    </main>
 
-            <section class="contacts">
-                <h2>Контакты</h2>
-                <ul class="contact-items">
-                    <li class="contact-item">
-                        <h3>Почта</h3>
-                        <a href="mailto:card.intr@mail.ru">card.intr@mail.ru</a>
-                    </li>
-                    <li class="contact-item">
-                        <h3>Телеграмм</h3>
-                        <a href="#">@card_intr</a>
-                    </li>
-                    <li class="contact-item">
-                        <h3>Инстаграмм</h3>
-                        <a href="#">_card_intr_</a>
-                    </li>
-                </ul>
-            </section>
-        </main>
-
-        <footer class="main-footer">
-            <p>Дмитриева Е.Е</p>
-        </footer>
-    </body>
+    <footer class="main-footer">
+        <p>Дмитриева Е.Е</p>
+    </footer>
+</body>
 
 </html>
